@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+    <div class="main-body">
+        <div class="card">
+            <form class="forms-inputs" method="POST">
+                {% csrf_token %}
+                <div class="headline">
+                    <p>Sign In</p>
+                </div>
+                <div class="inputs">
+                    <input type="text" placeholder="Enter Your Name" name="username">
+                    <input type="password" placeholder="Enter Your Password" name="password">
+                </div>
+                <div class="submit-button">
+                    <button type="submit" id="submit">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/static/img/background.jpg");
+    background-position: center;
+}
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 350px;
+}
+.main-body > .card{
+    background-color:rgb(133, 193, 233);
+    height: 250px;
+}
+.main-body .card form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-body .card .headline p{
+    background-color: rgb(235, 195, 144);
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.main-body .card > .inputs{
+    padding: 0 30px 30px 30px;
+}
+
+.main-body .card .inputs input{
+    background-color: rgb(133, 193, 233);
+    display: block;
+    margin: 40px 0px;
+    width: 300px;
+    padding: 10px 15px;
+	font-size: 15px;
+	border: none;
+	border-bottom:1px solid whitesmoke;
+	outline: none;
+}
+
+.main-body .card .submit-button button{
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: rgb(235, 195, 144);
+	font-size: 20px;
+	height: 50px;
+}
